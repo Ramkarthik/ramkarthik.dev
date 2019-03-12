@@ -48,6 +48,13 @@
             </a>
           </li>
         {%- endif -%}
+        {%- if site.stackoverflow_username -%}
+          <li>
+            <a target="_blank" href="https://stackoverflow.com/users/{{ site.stackoverflow_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+              <i class="fa fa-stack-overflow" title="Linkedin link"></i>
+            </a>
+          </li>
+        {%- endif -%}
         {%- if site.xing_username -%}
           <li>
             <a target="_blank" href="https://www.xing.com/profile/{{ site.xing_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
@@ -98,6 +105,11 @@
       {%- if site.website -%}
         <p>
           Web: {% include a.html href=site.website %}{{ site.website | escape }}</a>
+        </p>
+      {%- endif -%}
+      {%- if site.blog -%}
+        <p>
+          Blog: {% include a.html href=site.blog %}{{ site.blog | escape }}</a>
         </p>
       {%- endif -%}
     </div>

@@ -1,8 +1,10 @@
 # Education Template
-- name: Institution name
-  dates: Date Range (eg. 2016 - 2019)
-  qualification: Qualifications (eg. BA Performing Arts)
-  quote: >
-    Short institution or course description (optional)
+- name: St. Joseph's College of Engineering
+  dates: 2007 - 2011
+  qualification: Bachelors in Mechanical Engineering
+  #quote: >
+   # Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
-    Description of qualification
+    Most people find it interesting that I have a Bachelors in Mechanical Engineering and yet I work in IT. When I was in college, once I got back home, I always wanted to spend time learning and doing things that are completely not related to what I was learning in class. I tried many things but eventually two of those stuck with me for a long time: <mark>programming</mark> and <mark>blogging</mark>.
+
+    It was amazing to me back then (and even now) that I can write few lines of code and see the results immediately. Suddenly, I could automate things I usually spend a lot of time on. There was no way I was NOT getting into IT.

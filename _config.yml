@@ -1,38 +1,42 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+#repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+name: Ramkarthik Krishnamurthy
+title: Software Engineer
+email: ramkarthikkrishnamurthy@gmail.com
+#phone: Your phone number (optional)
+#website: https://kramkarthik.com
+blog: https://kramkarthik.com
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
+twitter_username: Ramkarthik
+github_username:  Ramkarthik
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: ramkarthik-krishnamurthy-091978169
+stackoverflow_username: 3280771/ramkarthik
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/ram.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Hi, my name is Ramkarthik Krishnamurthy. I'm a software engineer with over 7 years experience. I currently live in Salt Lake City, Utah. I primarily work with <mark>C#</mark>, <mark>ASP .NET</mark> (and I love <mark>dotnet core</mark>), <mark>SQL</mark> and <mark>JavaScript</mark>. For data access, I have used both <mark>ADO .NET</mark> and <mark>EntityFramework</mark>. I have experience creating <mark>MVC</mark>, <mark>Web API</mark>, <mark>WCF</mark>, <mark>class library</mark> and <mark>console</mark> applications. Apart from this, I have also worked with <mark>SignalR</mark> and <mark>WPF</mark>.
+  As for CI/CD tools, I have used <mark>Jenkins</mark>, <mark>Docker</mark>, <mark>AppVeyor</mark> and <mark>Azure Pipelines</mark>.
 
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - Links
-    - Images
+  There are some things I really enjoy and look for at a workplace:
+  - Working with a team to create solid and easy to use products for users
+  - Learning new things and taking more responsibilites
+  - Automating stuff that can be automated
+  - Writing lot of tests (I use <mark>MSTest</mark> and <mark>Xunit</mark>)
+  - Frequent deployments
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
@@ -44,11 +48,13 @@ about_content: | # this will include new lines to allow paragraphs
 # educaton_title: Education #(Use this to override about education section title)
 
 # More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
+more_title: When I'm not programming
 more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+  I play soccer regularly and watch English Premier League (Manchester United fan). I also like to write. While I don't publish most of the things that I write, I do publish some technical articles and thoughts on [my blog](https://kramkarthik.com).
 
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  I learnt [Carnatic music](https://en.wikiquote.org/wiki/Carnatic_music) for two years and have won some competitions when I was in school. But once I went to college, I got more into soccer and stopped taking Carnatic lessons.
+
+  Apart from these, I love to read a lot. I mostly read about philosophy, self-help, culture and business.
 
 # Footer
 footer_show_references: true

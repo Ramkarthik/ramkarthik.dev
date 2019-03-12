@@ -1,8 +1,14 @@
 # Project template
-- name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
-  quote: >
-    Short overview of the project (optional)
+- name: WordSharp
+  github: Ramkarthik/WordSharp
+  #quote: >
+   # Short overview of the project (optional)
   description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+    I was working on a side project where I had to consume a Dictionary API from a provider called WordsAPI. While I was building this, I realized that creating this as a .NET library (and eventually a Nuget package) will help other .NET developers to easily build products using WordsAPI. Having used OSS a lot, I have always wanted to create my own project and this was the best opportunity to do it.
+
+    While building this, I learned how to automate CI/CD using AppVeyor and integrate that with GitHub.
+
+- name: LexisBuddy
+  #github: https://github.com/Ramkarthik/WordSharp
+  description: |
+    This is a project that I'm currently working on. LexisBuddy is an app that helps you learn new words and remember them. Often when I come cross new words, I Google the meaning and few days later, I have already forgotten the meaning. This made me create LexisBuddy. I have completed the API which uses dotnet core, Postgres and Docker. This makes it easy to host on a Linux VM. I have started building the Angular client which consumes this API. This will be a Progressive Web App (PWA). The main reason behind choosing Angular is to learn a modern JS framework.

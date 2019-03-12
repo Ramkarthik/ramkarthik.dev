@@ -8,9 +8,11 @@
           {% include a.html href=project.link class="project-link" %}{{ project.link }}</a>
         {%- endif -%}
         <p class="no-print">
+          {%- if project.github -%}
           <a href="https://github.com/{{ project.github }}" target="_blank">
             <i class="fa fa-github" title="{{ project.name }} Github link"></i>
           </a>
+          {%- endif -%}
         </p>
       </div>
       <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
