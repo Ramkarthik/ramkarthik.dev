@@ -1,0 +1,49 @@
+{
+  "title": "Ramkarthik Krishnamurthy",
+  "url": "https://ramkarthik.dev/",
+  "language": "en",
+  "description": "Developer blog of Ramkarthik Krishnamurthy - where I document things I learn when building projects",
+  "feed": {
+    "subtitle": "Developer blog of Ramkarthik Krishnamurthy - where I document things I learn when building projects",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://ramkarthik.dev/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://ramkarthik.dev/feed/feed.json"
+  },
+  "author": {
+    "name": "Ramkarthik Krishnamurthy",
+    "email": "ramkarthikkrishnamurthy@gmail.com",
+    "url": "https://kramkarthik.com/"
+  },
+  "nav": [{
+    "title": "home",
+    "url": "/"
+  },
+  {
+    "title": "posts",
+    "url": "/posts"
+  },
+  {
+    "title": "about",
+    "url": "/about"
+  },
+  {
+    "title": "twitter",
+    "url": "https://twitter.com/ramkarthik/"
+  },
+  {
+    "title": "rss",
+    "url": "/feed/feed.xml"
+  },
+  {
+    "title": "search",
+    "url": "/search"
+  }],
+  "config": {
+    "showDateList": true,
+    "showDatePost": true
+  }
+}
